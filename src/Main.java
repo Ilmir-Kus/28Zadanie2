@@ -4,9 +4,10 @@ public class Main {
         int deposit = 900; // Пополнение
         int bonus;
         if (deposit > 1000) {
-            bonus = deposit/100;
+            bonus = deposit / 100;
             System.out.println("Кол-во бонусных рублей:" + bonus);
-        } else bonus = 0; {
+        } else bonus = 0;
+        {
             System.out.println("Кол-во бонусных рублей:" + bonus);
         }
     }
